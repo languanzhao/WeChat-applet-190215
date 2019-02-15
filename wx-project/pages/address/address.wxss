@@ -1,0 +1,22 @@
+.container{
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.wrapper{
+	background-color:#fff;
+	border-radius:10rpx;
+	box-shadow:0 0 6px 3px #999;
+	margin:30rpx 0;
+	padding:25rpx;
+}
+.name{
+	display: flex;
+	justify-content: space-between;
+}
+.name text{
+	font-size: 28rpx;
+}
+.address{
+	font-size: 24rpx;
+	color: #666666;
+}

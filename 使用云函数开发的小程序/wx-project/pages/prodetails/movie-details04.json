@@ -1,0 +1,21 @@
+{
+	"movieName": "哥斯拉之真假对决",
+	"movieType": "动作/剧情/科幻",
+	"movieLocal": "113分钟 中国大陆",
+	"movieTime": "上映时间：2018-09-30",
+	"movieHeadImage": "http://v.juhe.cn/movie/img?15209",
+	"movieGut": "哥斯拉在三原山消失以后，超级X的残骸被回收，日本政府在毁坏的东京内寻找遗留下的G细胞。同时，一个无情牟取暴利的生物工艺学企业联合所属的突击队也在找G细胞。然而这组织的代理人被杀，细胞也被SSS9，沙拉迪亚共和国所雇用的刺..",
+	"movieActors": [{
+		"actorsName": "吴昱翰",
+		"actorsObj": "导演",
+		"actorsPhoto": "http://img5.mtime.cn/mt/2018/10/19/104010.44846372_182X243X4.jpg"
+	}, {
+		"actorsName": "大森一树",
+		"actorsObj": "导演",
+		"actorsPhoto": "http://img5.mtime.cn/mt/2018/10/19/104010.44846372_182X243X4.jpg"
+	}, {
+		"actorsName": "木村武,关泽新一",
+		"actorsObj": "导演",
+		"actorsPhoto": "http://img5.mtime.cn/mt/2018/10/19/104010.44846372_182X243X4.jpg"
+	}]
+}

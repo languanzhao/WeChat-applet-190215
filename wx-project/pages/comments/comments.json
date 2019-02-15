@@ -1,0 +1,7 @@
+{
+	"usingComponents": {
+		"van-rate": "../.././miniprogram_npm/vant-weapp/rate/index",
+		"i-icon": "../.././miniprogram_npm/iview-weapp/icon/index"
+	},
+	"navigationBarTitleText": "观众评论"
+}

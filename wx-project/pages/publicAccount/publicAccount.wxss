@@ -1,0 +1,30 @@
+.way{
+	font-size:32rpx;
+	padding-left:20rpx;
+	color: #999999;
+	margin:20rpx 0;
+}
+.way text{
+	font-size:40rpx;
+}
+.name{
+	width:200rpx;
+	height:30rpxs;
+	margin:15rpx auto;
+	text-align: center;
+	border: 1rpx solid limegreen;
+	padding:5rpx;
+	font-size:36rpx;
+	border-radius:30rpx;
+}
+.pic{
+	text-align: center;
+}
+.pic1{
+	width:600rpx;
+	height:300rpx;
+}
+.pic2{
+	width:400rpx;
+	height:400rpx;
+}

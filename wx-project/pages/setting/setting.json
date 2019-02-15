@@ -1,0 +1,8 @@
+{
+	"usingComponents": {
+		"i-button": "../.././miniprogram_npm/iview-weapp/button/index",
+		"i-drawer": "../.././miniprogram_npm/iview-weapp/drawer/index",
+		"i-icon": "../../miniprogram_npm/iview-weapp/icon/index"
+},
+	"navigationBarTitleText": "设置"
+}

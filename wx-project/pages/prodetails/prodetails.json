@@ -1,0 +1,8 @@
+{
+	"usingComponents": {
+		"van-icon": "../.././miniprogram_npm/vant-weapp/icon/index",
+		"van-rate": "../.././miniprogram_npm/vant-weapp/rate/index",
+		"i-icon": "../.././miniprogram_npm/iview-weapp/icon/index"
+	},
+	"navigationBarTitleText": "影片详情"
+}

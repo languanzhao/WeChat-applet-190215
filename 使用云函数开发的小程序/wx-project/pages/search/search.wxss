@@ -1,0 +1,11 @@
+.wrapper{display:flex;justify-content:space-around;flex-wrap:wrap;margin-top:10rpx;height:280rpx;}
+.result{font-size:30rpx;text-align:center;border-bottom:2rpx solid #C9C9C9;border-top:2rpx solid #C9C9C9;
+		background: #C9C9C9;line-height:50rpx;}
+.searchInfo{width:200rpx;height:270rpx;display:flex;flex-direction:column;}
+.searchInfo image{width:200rpx;height:250rpx;}
+.searchInfo view{font-size:22rpx;text-align:center;}
+.history{display: flex;flex-wrap:wrap;}
+.history view{font-size:26rpx;background: #F56723;padding:8rpx;margin:10rpx 15rpx;display:block;}
+.hot text{font-size:26rpx;background: #F56723;padding:8rpx;margin:10rpx 15rpx;display:inline-block;}
+
+.searchText{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}

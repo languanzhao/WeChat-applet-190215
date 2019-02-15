@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+      "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
+    },
+    "onReachBottomDistance":50,
+		"enablePullDownRefresh": true
+  }

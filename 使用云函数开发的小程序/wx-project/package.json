@@ -1,0 +1,21 @@
+{
+  "name": "wx-pro",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "app.js",
+  "scripts": {
+    "test": "a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "a",
+  "license": "ISC",
+  "dependencies": {
+    "vant-weapp": "^0.4.6"
+  }
+}

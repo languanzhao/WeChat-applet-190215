@@ -1,0 +1,75 @@
+﻿（小程序 ）
+1.微信小程序scroll-view的scroll-x失效的解决办法     https://blog.csdn.net/weixin_42964571/article/details/82870944
+
+2.在已有分支  微信小程序异步处理函数  中 添加  1.npm i regenerator 2.在node_modules中找到路径引入  3.https://www.jianshu.com/p/270f129e5af3
+
+3.在已有分支  使用小程序vant ui步骤  中 添加  注：1.cnpm i vant-weapp -S --production 安装依赖 2.在依赖里提出dist文件 3.在使用页面的json中引入路径                                                4.在使用的wxml页面引入标签即可
+
+4.图片加载不出时显示替换图片  图片加载错误 (binderror="imageError" data-index='{{index}}')    文档：https://blog.liuguofeng.com/p/3898
+
+5.微信小程序wx.previewImage预览图片      https://blog.csdn.net/gao_xu_520/article/details/72724008
+
+6.跳转路径（注意用法）                   wx.navigateTo 和 wx.switchTab 区别   前者跳转到非 tabBar 页面，后者跳转到 tabBar 页面。
+
+7.微信小程序使用阿里巴巴图标库字体图标用法 详情看文档 https://blog.csdn.net/nongweiyilady/article/details/74244362 
+注：1.使用整个文件需修改为wxss 2./* 在app.wxss中全局引入,就不需要在使用页面都引入 */
+
+8.使用后台接口时，注意需要把后台接口的  域名   在 微信小程序里的设置的服务器域名中设置后台接口的域名
+（配置服务器域名，如果你的小程序用到了网络请求，那么这里要先在“设置”-“开发设置”里添加域名。）
+
+9.微信小程序如何在线上调试          线上没有调试，只需要在开发版本中打开调试，然后在进入线上版本则可以显示出调试按钮
+
+10.注意currentTarget与target的区别  currentTarget:绑定的事件当前元素及其子元素都会触发  target: 绑定的事件 子元素不会被触发事件
+
+11.长按效果 bindlongpress="deleteImage"  data-index="{{index}}" 文档：https://blog.csdn.net/wangquan1632008/article/details/81561180
+
+12.模糊搜索                           文档：https://www.jianshu.com/p/4cd4f74a0b20
+
+13.小程序清除button默认样式            必须加这两项 button::after{border: none;}    button{background-color: #fff;}
+
+14.在微信小程序中如何才能获取手机网络状态    wx.getNetworkType  文档：http://www.php.cn/js-tutorial-404504.html
+
+15.设置系统剪贴板的内容     wx.setClipboardData（） 可设置点击或长按获取内容
+
+16. 箭头 >  做法：使用前/后置，设置宽高、边框和角度转换即可  注：背景色是否一致
+.wrapper .title:after {
+  position: absolute;
+  right:80rpx;
+  top:50rpx;
+  content: "";
+  width:20rpx;
+  height:20rpx;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  transform:rotate(45deg);
+}
+17.基于原生小程序精仿的猫眼电影  文档：https://blog.csdn.net/qq_37860930/article/details/83473562
+
+18.可使用的后台接口             文档：https://github.com/Binaryify/NeteaseCloudMusicApi
+
+19.腾讯位置服务      逆地址解析（经纬度转换成地址） 地址解析（地址转换成经纬度）
+20.
+	{wx:"wx.showActionSheet",cn:"显示操作菜单"}
+wx.showActionSheet有个bug就是无法像在开发者工具那样显示，在安卓下，是在中间弹窗出来，而且没有取消这个选项，需要自己在数组里添加上去
+
+
+	{wx:"wx.setTabBarBadge",cn:"为 tabBar 某一项的右上角添加文本"}
+	{wx:"wx.removeTabBarBadge",cn:"移除 tabBar 某一项右上角的文本"}
+	{wx:"wx.showTabBarRedDot",cn:"显示 tabBar 某一项的右上角的红点"}
+	{wx:"wx.hideTabBarRedDot",cn:"隐藏 tabBar 某一项的右上角的红点"}
+	{wx:"wx.pageScrollTo",cn:"将页面滚动到目标位置"}
+
+21.微信小程序滚动监听（https://blog.csdn.net/qq_15964039/article/details/80138090）
+	在页面Page()函数里，有个onPageScroll方法，
+	可以输出滚动距离：
+
+onPageScroll:function(e){
+    console.log(e);//{scrollTop:99}
+  }
+
+	
+开发者可以通过监听scrollTop的变化来操作页面显示。 
+
+	现有bug：有时响应滚动监听存在延迟。
+
+22.

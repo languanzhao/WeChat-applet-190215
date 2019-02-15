@@ -1,0 +1,9 @@
+<view>
+    <view class="com">
+        {{text1}}
+        {{text}}  
+    </view>
+      
+    <slot></slot>
+</view>
+  

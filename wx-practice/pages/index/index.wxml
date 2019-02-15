@@ -1,0 +1,72 @@
+    <!-- 引入模板                                                                            -->
+<import src=".././template/template.wxml"/>     
+<view class="container">
+    <!-- 模板使用 -->
+        <template is="mytemplate" data="{{...header}}">
+                <view class="wrapper">
+                        <view class="left">
+                            {{header.back}}
+                        </view>
+                        <view class="center">
+                            {{header.text}}
+                        </view>
+                        <view class="right">
+                            {{header.icon}}
+                        </view>
+                    </view> 
+        </template>
+<!-- 轮播 -->
+        <swiper 
+        indicator-dots="{{dots}}" 
+        indicator-color="{{dots_color}}" 
+        indicator-active-color="{{active_color}}" 
+        autoplay="{{autoplay}}" 
+        interval="{{delaytime}}" 
+        circular="{{circular}}" 
+        display-multiple-items="{{show_num}}">
+            <swiper-item style="background:#67a4d6;">1</swiper-item>
+            <swiper-item style="background:#d82929;">2</swiper-item>
+            <swiper-item style="background:#60df7b;">3</swiper-item>
+            <swiper-item style="background:#67a4d6;">1</swiper-item>
+            <swiper-item style="background:#d82929;">2</swiper-item>
+            <swiper-item style="background:#60df7b;">3</swiper-item>
+        </swiper>
+<!-- 点击 -->
+      <view>
+          <form>
+            <input type="text" bindinput="getVal" value="{{val}}"/>
+            <button bindtap="clickMe">点击</button>
+          </form>
+      </view>
+      <view wx:for="{{list}}" wx:key="{{index}}">
+            {{item}}
+            <span bindtap="remove" data-index="{{index}}">删除</span>
+      </view>
+
+<!-- 注意前面添加 -->
+    <navigator url="/pages/details/details" class="tagClick">        
+        点击跳转到详情页(标签跳转)
+    </navigator>
+    <view bindtap="toReturn" class="fnClick">
+        点击跳转到详情页(方法跳转)
+    </view>
+<!-- 点击进入地图-->
+      <button bindtap="mapClick">点击进入地图</button>
+
+<!-- 点击显示下标 -->
+    <view wx:for="{{arr}}" bindtap="indexClick" data-index="{{index}}" wx:for-item="itemName" wx:key="{{index}}">
+        {{itemName}}
+    </view>
+		
+<!-- 	组件 -->
+    <mycomponent text="{{text}}">{{msg}}</mycomponent>
+		
+    <view>
+            <image src="{{avatarUrl}}" style="width: 200rpx;height: 200rpx;"></image>
+						<view>{{nickName}}</view>
+    </view>
+      
+</view>
+<navigator url="/pages/sorts/sorts" class="tagClick">        
+        点击跳转到排序页(标签跳转)
+    </navigator>

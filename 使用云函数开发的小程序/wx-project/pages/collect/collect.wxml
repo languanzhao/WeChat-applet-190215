@@ -1,0 +1,10 @@
+<!--pages/collect/collect.wxml-->
+<view class="title">我的收藏</view>
+<view wx:if="{{bool}}" class="collectItems">
+	<view wx:for="{{list}}" wx:key="{{index}}" class="collectItem">
+		{{item}}
+	</view>
+</view>
+<view wx:else class="none">
+	暂无收藏哦！
+</view>

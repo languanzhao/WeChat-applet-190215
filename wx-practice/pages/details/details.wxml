@@ -1,0 +1,5 @@
+<view>
+    <text>这是详情页</text>
+    <mycomponent></mycomponent>
+</view>
+  

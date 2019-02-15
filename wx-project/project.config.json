@@ -1,0 +1,109 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.0",
+	"appid": "wxb275aca9d42aff84",
+	"projectname": "%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%80%E5%8F%B7",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": " 扫描小程序码",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1047"
+				},
+				{
+					"id": 2,
+					"name": "微信聊天主界面下拉",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1089"
+				},
+				{
+					"id": -1,
+					"name": "长按图片识别小程序码",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1048"
+				},
+				{
+					"id": -1,
+					"name": "顶部搜索框小程序快捷入口",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1054"
+				},
+				{
+					"id": -1,
+					"name": "发现栏小程序主入口",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": " 顶部搜索框的搜索结果页",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1005"
+				},
+				{
+					"id": -1,
+					"name": " 聊天顶部置顶小程序入口",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1022"
+				},
+				{
+					"id": -1,
+					"name": "顶部搜索框搜索结果页“使用过的小程序”列表",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1027"
+				},
+				{
+					"id": -1,
+					"name": "扫描二维码",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": "1011"
+				}
+			]
+		}
+	}
+}

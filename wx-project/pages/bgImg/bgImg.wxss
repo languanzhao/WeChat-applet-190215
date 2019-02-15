@@ -1,0 +1,26 @@
+.bgImg{
+	position: relative;
+	width:700rpx;
+	height: 360rpx;
+	border-radius: 30rpx;
+	overflow: hidden;
+	margin:20rpx auto;
+}
+.bgImg image{
+	width:700rpx;
+	height: 360rpx;
+}
+.bgImg view{
+	position: absolute;
+	display: inline-block;
+	text-align: left;
+	height: 60rpx;
+	line-height: 60rpx;
+	width: inherit;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	padding-left:20rpx;
+	font-size:28rpx;
+}

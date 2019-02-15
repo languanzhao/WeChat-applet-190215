@@ -1,0 +1,18 @@
+<view class="way"><text>方法一：</text>长按复制“生活百全”公众号到微信添加</view>
+<view class="name" bindlongpress="copyWord">{{name}}</view>
+
+<view class="pic">
+	<image src="https://languanzhao.github.io/link-to-img/name.png" class="pic1"></image>
+</view>
+
+<view class="way"><text>方法二：</text>保存二维码到相册，微信扫一扫从相册选取二维码，添加公众号</view>
+
+<view class="pic" wx:for="{{list}}">
+	<image src="{{item}}" class="pic2" bindtap="previewImage"></image>
+</view>
+
+
+
+
+
+

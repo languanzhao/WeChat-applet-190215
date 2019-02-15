@@ -1,0 +1,20 @@
+<view class="comment">
+	<view class="title">热门评论</view>
+	<view class="info" wx:for="{{commentList}}" wx:key="{{index}}">
+		<image src="{{item.headurl}}"></image>
+		<view class="right">
+			<view class="name">{{item.nickname}}</view>
+			<view class="grade">			<!-- 只读状态 readonly="true" -->
+				<van-rate value="{{item.rating}}" size="15" readonly="true"/>
+			</view>
+			<view class="content">{{item.content}}</view>
+			<view class="bottom">
+				<view class="date">{{item.location}} 2018-6-25</view>
+				<view class="praiseCount" bindtap="addPraiseCount" data-index="{{index}}">
+					<i-icon type="praise" size="20" color="#80848f"  bindtap="changePraiseColor" data-index="{{index}}"/>
+					{{item.commentCount}}
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

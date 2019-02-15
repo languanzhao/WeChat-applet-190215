@@ -1,0 +1,41 @@
+.container{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container .tip{
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size:26rpx;
+	padding:10rpx 0rpx;
+}
+.upload{
+	width:100%;
+	margin-top: 100rpx;
+}
+.upload view{
+	margin: 0 auto;
+	width:200rpx;
+	height:80rpx;
+	font-size:30rpx;
+	text-align: center;
+	line-height:80rpx;
+	border:1rpx solid #00FF00;
+	color: #00FF00;
+}
+.img{
+	width:180rpx;
+	height:230rpx;
+	margin:5rpx;
+}
+.img image{
+	width:180rpx;
+	height:230rpx;
+}
+.none{
+	text-align: center;
+	font-size:30rpx;
+	color: #666;
+	margin-top: 300rpx;
+}

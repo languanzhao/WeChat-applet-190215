@@ -1,0 +1,50 @@
+<view class="search">
+	<!-- 原生写法 -->
+	<!-- <view>               
+		<input type="text" bindinput="input" value="{{value}}"/>
+		<button bindtap="search">搜索</button>
+	</view>
+	<view wx:for="{{list}}" wx:key="{{index}}">
+		<navigator url="{{'/pages/prodetails/prodetails?movieName='+item.url}}">
+			{{item.movieName}}
+		</navigator>
+	</view> -->
+	
+	<!-- vant ui 写法 -->
+	<van-search
+		  value="{{ value }}"
+		  placeholder="请输入搜索关键词"
+		  use-action-slot
+		  bind:change="input"
+		  background="#999"	
+		>
+	<view slot="action" bind:tap="search">搜索</view>
+	</van-search>
+	<view class="result">热门搜索</view>
+	<view class="hot">
+		建议搜索:
+		<text>毒液：致命守护者</text>
+		<text>李茶的姑妈</text>
+		<text>哥斯拉</text>
+	</view>
+	<view class="result">搜索结果</view>
+	<view class="wrapper">
+		
+		<view wx:for="{{list}}" wx:key="{{index}}">
+			<navigator url="{{'/pages/prodetails/prodetails?movieName='+item.url}}" class="searchInfo">
+					<image src="{{item.movieHeadImage}}"></image>
+					<view class="searchText">
+						{{item.movieName}}
+					</view>
+			</navigator>
+		</view>
+	</view>
+	<view class="result">历史记录</view>
+	<view class="history">
+			<view wx:for="{{historyList}}" wx:key="{{index}}">{{item}}</view>
+	</view>
+</view>
+<!-- 使用vant ui中的 {Search 搜索} 注意事项：
+1）bindinput="input" =>  bind:change="input"
+2) event.detail.value => event.detail
+3) bindtap="search"  =>  bind:tap="search" -->

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/prodetails/prodetails",
+    "pages/address/address",
+    "pages/index/index",
+    "pages/cinema/cinema",
+    "pages/bgImg/bgImg",
+    "pages/search/search",
+    "pages/setting/setting",
+    "pages/collect/collect",
+    "pages/comments/comments",
+    "pages/album/album",
+    "pages/publicAccount/publicAccount",
+    "pages/camera/camera",
+    "pages/about/about",
+    "pages/date/date"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarBackgroundColor": "#e54847",
+    "navigationBarTitleText": "影片之家"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "电影",
+        "iconPath": "img/movie.png",
+        "selectedIconPath": "img/movieSelect.png"
+      },
+      {
+        "pagePath": "pages/cinema/cinema",
+        "text": "影院",
+        "iconPath": "img/cinema.png",
+        "selectedIconPath": "img/cinemaSelect.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "img/user.png",
+        "selectedIconPath": "img/userSelect.png"
+      }
+    ],
+    "color": "#666666",
+    "selectedColor": "#e54847",
+    "backgroundColor": "#f3f2f2"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置将用于获取数据信息"
+    }
+  }
+}

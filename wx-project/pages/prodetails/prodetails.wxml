@@ -1,0 +1,99 @@
+<view class="header">
+	<image class="header-bg" src="{{movieDetails.img}}"></image>
+	<view class="header-detail-info">
+		<view class="main">
+			<view class="header-image">
+				<image
+					class="header-image-item"
+					mode="scaleToFill" 
+					src="{{movieDetails.img}}"
+					bindtap="previewImage"
+					></image>
+			</view>
+			<view class="message">
+				<text class="mes-title">{{movieDetails.name}}</text>
+				<text>类型: {{movieDetails.type}}</text>
+				<text>2/3D:	{{movieDetails.is3D === true ? '3D' : '2D'}}</text>
+				<text>国家:	{{movieDetails.releaseArea}}</text>
+				<text>导演:	{{movieDetails.director.name}}</text>
+				<text>时长:	{{movieDetails.mins}}</text>
+			</view>
+			<view class="score">
+				<view style="font-size: 28rpx;text-align: center;color: #fff;margin-bottom: 8rpx;">收藏</view>
+				<view class="bg" bindtap="collectClick">
+					<van-icon name="like" size="40" class="like" color="{{collectColor}}"></van-icon>
+				</view>
+				<text style="color:#e3321b;font-size:30rpx;">{{movieDetails.overallRating}}</text>
+				<text>评分</text>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="video-title">票房信息</view>
+<view class="boxOffice">
+	<view>
+		<view class="record">{{boxOffice.ranking}}</view>
+		<view class="decription">票房排名</view>
+	</view>
+	<view>
+		<view class="record">{{boxOffice.todayBoxDes}}</view>
+		<view class="decription">{{boxOffice.todayBoxDesUnit}}</view>
+	</view>
+	<view>
+		<view class="record">{{boxOffice.totalBoxDes}}</view>
+		<view class="decription">{{boxOffice.totalBoxUnit}}</view>
+	</view>
+</view>
+<!-- <video class="video" src="{{movieDetails.video.hightUrl}}"></video> -->
+<view class="gut">
+	<text class="gut-title">剧情简介</text>
+	<view class="{{bool ? 'gut-main-off' : 'gut-main-on'}}">
+		<view class="story">{{movieDetails.story}}</view>
+	</view>
+	<text class="btn" bindtap="toggle">{{btnText}}</text>
+</view>
+
+<view class="actors">
+	<text class="actors-title">演职人员</text>
+	<scroll-view scroll-x style="height:350rpx;">
+	<view class="actors-list">
+		<view class="actors-item">
+			<image class="photo" src="{{movieDetails.director.img}}" bindtap="previewImageDirector"></image>
+			<text>{{movieDetails.director.name}}</text>
+			<text class="director">导演</text>
+		</view>
+		<view class="actors-item" wx:for="{{movieDetails.actors}}" wx:key="{{index}}" >
+			<image class="photo" 
+			src="{{item.img}}" 
+			mode="scaleToFill" 
+			binderror="imageError" 
+			data-index='{{index}}'
+			bindtap="previewImageActors"
+			></image>
+			<text>{{item.name}}</text>
+			<text class="roleName">{{item.roleName}}</text>
+		</view>
+	</view>
+	</scroll-view>
+</view>
+<view class="comment">
+	<view class="title">观众评论</view>
+	<view class="info" wx:for="{{commentList}}" wx:key="{{index}}">
+		<image src="{{item.headImg}}"></image>
+		<view class="right">
+			<view class="name">{{item.nickname}}</view>
+			<view class="grade">			<!-- 只读状态 readonly="true" -->
+				<van-rate value="{{item.rating}}" size="15" readonly="true"/>
+			</view>
+			<view class="content">{{item.content}}</view>
+			<view class="bottom">
+				<view class="date">{{item.locationName}} 2018-6-25</view>
+				<view class="praiseCount" bindtap="addPraiseCount" data-index="{{index}}">
+					<i-icon type="praise" size="20" color="#80848f" data-index="{{index}}" bindtap="changePraiseColor"/>
+					{{item.praiseCount}}
+				</view>
+			</view>
+		</view>
+	</view>
+	<navigator url="{{'/pages/comments/comments?movieId='+movieDetails.movieId}}" class="total">查看全部{{total}}条影评</navigator>
+</view>		 

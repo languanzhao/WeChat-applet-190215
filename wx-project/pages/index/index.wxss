@@ -1,0 +1,74 @@
+
+.city{font-size:26rpx;}
+.city text{font-size:20rpx;}
+
+.header{height:82rpx;display:flex;justify-content: space-between;align-items: center;padding: 0rpx 20rpx;box-sizing: border-box;}
+.tab{display: flex;text-align: center;line-height: 40rpx;height: 40rpx;align-items: center;}
+.tab .on{display:block;color:#ef4238;width:150rpx;font-size:34rpx;height:72rpx;line-height:72rpx;border-bottom:5rpx solid #ef4238;font-weight:700;}
+.tab .current{display:block;color: #000;font-size:34rpx;width:150rpx;height:72rpx;line-height:72rpx;border-bottom:5rpx solid #fff;font-weight:700;}
+
+.banner{width: 100%;height:330rpx;}
+.banner swiper-item{width: 100%;height:330rpx;}
+.banner swiper-item image{width: 100%;height:330rpx;}
+
+.toSearch{width:150rpx;text-align: center;line-height:10rpx;}
+
+.prolist .info .infoTo{width:710rpx;height:240rpx;display: flex;justify-content: space-around;background: #fff;
+                margin:90rpx auto 0 auto;border-radius:20rpx;box-shadow:0rpx 0rpx 40rpx 40rpx #ccc;}
+                
+.prolist .info .image{width: 200rpx;height: 250rpx;position: relative;margin-left:20rpx;}
+.prolist .info .image image{width: 200rpx;height: 250rpx;position: absolute;bottom:55rpx;border-radius:20rpx;}
+.prolist .info .text{width:364rpx;font-size: 24rpx;color: #666666;padding:15rpx 0rpx 0rpx 10px;}
+.prolist .info .text .title{font-size: 24rpx;color: #333333;font-weight:bold;}
+.prolist .info .text view{margin-bottom:4rpx;}
+.prolist .info .text .score{display: inline-block;color:#e3321b ;font-size:30rpx;}
+.prolist .info .details{width:90rpx;height:240rpx;font-size:25rpx;line-height:240rpx;color: #e3321b;}
+
+.prolist .info .hoverClass{color:#000;}
+.loading{text-align: center;margin:30rpx 0 10rpx 0;font-size:28rpx;color: #666;}
+.loadingImg{width:54rpx;height:54rpx;display: block;margin:5rpx auto;}
+.bottom_none{text-align: center;margin:20rpx;font-size:30rpx;color:#666;}
+
+
+.hot{padding:0 20rpx;border-top:5rpx solid #f3f2f2;border-bottom:20rpx solid #f3f2f2;}
+.hot .attention{padding:10rpx 0rpx;font-size:28rpx;color:#333;}
+.will{padding:10rpx 20rpx;font-size:28rpx;color:#333;}
+.attention text,.will text{color:#ef4238;}
+.scrollView{white-space:nowrap;}
+/* 隐藏滚动条 */
+::-webkit-scrollbar{
+width: 0;
+height: 0;
+color: transparent;
+}
+
+.wrapper{width:170rpx;display:inline-block;margin-right:8rpx;}
+.wrapper image{width:170rpx;height:200rpx;}
+.wrapper .title{color: #000000;margin-bottom:8rpx;}
+.wrapper view{font-size:24rpx;color:#999;line-height:32rpx;text-align:center;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+.content .moviecomings navigator{display: flex;justify-content: space-around;height:228rpx;align-items: center;position:relative;}
+.content .moviecomings navigator:before{content:"详情预告>>";position:absolute;right:50rpx;margin:auto 0;color:#666;font-size:22rpx;color:#e54847;}
+.content .moviecomings navigator:after{content:"";width:calc(100% - 200rpx);position:absolute;bottom:0;right:20rpx;height:0; border-bottom:2px solid #f0f0f0;}
+.content .moviecomings image{width:138rpx;height:200rpx;margin-left:5rpx;}
+.content .moviecomings .info{width:75%;font-size:26rpx;color:#666;}
+.content .info view{margin-bottom:6rpx}
+.content .info .title{font-size:34rpx;color:#333;}
+.content .info .grade{font-weight:700;color:#faaf00;font-size:30rpx;display:inline;}
+.actors{width:180px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.wrapper .lookup{color:#faaf00;}
+
+.scrollTop{
+	width: 100rpx;
+	height: 100rpx;
+	position: fixed;
+	bottom: 200rpx;
+	right: 20rpx;
+	border-radius: 50%;
+	font-size:28rpx;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	line-height: 100rpx;
+	text-align: center;
+}
+	

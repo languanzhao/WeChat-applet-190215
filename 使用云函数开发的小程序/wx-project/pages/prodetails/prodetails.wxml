@@ -1,0 +1,46 @@
+<view class="header">
+	<image class="header-bg" src="{{movieDetails.movieHeadImage}}"></image>
+	<view class="header-detail-info">
+		<view class="main">
+			<view class="header-image">
+				<image 
+					class="header-image-item" 
+					mode="scaleToFill" 
+					src="{{movieDetails.movieHeadImage}}"
+					></image>
+			</view>
+			<view class="message">
+				<text class="mes-title">{{movieDetails.movieName}}</text>
+				<text>{{movieDetails.movieType}}</text>
+				<text>{{movieDetails.movieLocal}}</text>
+				<text>{{movieDetails.movieTime}}</text>
+			</view>
+			<view class="score">
+				<view class="bg">
+					<van-icon bindtap="collectClick" name="like" size="28" class="like" color="{{collectColor}}"></van-icon>
+				</view>
+				<text style="color: #e3321b; font-size: 30rpx;">7.9</text>
+				<text>评分</text>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="gut">
+	<text class="gut-title">剧情简介</text>
+	<view class="{{bool ? 'gut-main-off' : 'gut-main-on'}}">
+		<p>{{movieDetails.movieGut}}</p>
+	</view>
+	<button class="btn" bindtap="toggle">{{btnText}}</button>
+</view>
+
+<view class="actors">
+	<text class="actors-title">演职人员</text>
+	<view class="actors-list">
+		<view class="actors-item" wx:for="{{movieDetails.movieActors}}" wx:key="{{index}}">
+			<image class="photo" src="{{item.actorsPhoto}}" mode="center"></image>
+			<text>{{item.actorsName}}</text>
+			<text>{{item.actorsObj}}</text>
+		</view>
+	</view>
+</view>

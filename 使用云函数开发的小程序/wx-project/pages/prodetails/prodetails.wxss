@@ -1,0 +1,142 @@
+/* pages/details/details.wxss */
+.header{
+	width: 100%;
+	height: 347rpx;
+	position: relative;
+	overflow: hidden;
+}
+.header .header-bg{
+	width: 100%;
+	height: 100%;
+	filter: blur(30rpx);
+	position: absolute;
+	z-index: 1;
+}
+.header .header-detail-info{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.main{
+	width: 709rpx;
+	height: 250rpx;
+	margin: 0 auto;
+	margin-top: 47rpx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-image{
+	width: 200rpx;
+	height: 250rpx;
+	border-radius: 13rpx;
+	box-shadow: 0 0 8rpx #dddddd;
+	overflow: hidden;
+}
+.header-image-item{
+	width: 100%;
+	height: 100%;
+}
+
+.message{
+	width: 380rpx;
+}
+.message .mes-title{
+	font-size: 28rpx;
+	margin-top: 25rpx;
+}
+.message text{
+	font-size: 24rpx;
+	display: block;
+	line-height: 38rpx;
+}
+
+
+.score{
+	width: 50rpx;
+	height: 140rpx;
+	margin-right: 30rpx;
+}
+.score .bg{
+	width: 48rpx;
+	height: 48rpx;
+	border-radius: 50%;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	line-height: 48rpx;
+}
+.score .van-icon{
+	margin-top: 8rpx;
+}
+
+.score text{
+	text-align: center;
+	display: block;
+	font-size: 24rpx;
+}
+
+
+.gut{
+	padding: 0 18rpx;
+	box-sizing: border-box;
+}
+.gut .gut-title{
+	font-size: 28rpx;
+	font-weight: bold;
+}
+.gut .gut-main-off{
+	height: 100rpx;
+	overflow: hidden;
+}
+.gut .gut-main-on{
+	height: auto;
+}
+.gut p{
+	font-size: 24rpx;
+	line-height: 42rpx;
+}
+
+.gut .btn{
+	width: 32rpx;
+	height: 20rpx;
+	background: none;
+	font-size: 16rpx;
+	text-align: center;
+	line-height: 20rpx;
+}
+
+
+.actors{
+	border-top: 20rpx solid #d8d8d8;
+	border-bottom: 20rpx solid #d8d8d8;
+	box-sizing: border-box;
+	padding-left: 20rpx;
+}
+.actors-list{
+	display: flex;
+}
+.actors-item{
+	text-align: center;
+	width: 160rpx;
+	height: 273rpx;
+	margin-right: 10rpx;
+}
+.actors .actors-title{
+	font-size: 28rpx;
+	font-weight: bold;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.actors .photo{
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.actors text{
+	font-size: 27rpx;
+	display: block;
+}

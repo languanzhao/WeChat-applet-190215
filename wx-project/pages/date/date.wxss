@@ -1,0 +1,16 @@
+.date{
+	text-align: center;
+	margin:100rpx 0 200rpx 0;
+	font-size: 50rpx;
+}
+.finish{
+	position: absolute;
+	top: 30rpx;
+	right: 30rpx;
+	font-size: 40rpx;
+	color:#1989FA;
+}
+.middleBox{
+	border: 1rpx solid #2DB7F5;
+	box-sizing:border-box;
+}

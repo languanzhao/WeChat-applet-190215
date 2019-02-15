@@ -1,0 +1,54 @@
+
+<view class="container">
+    <view class="header">
+      <view class="city"><text>当前城市:</text>{{city}}</view>
+      <view>
+        <view class="tab">
+          <text 
+          wx:for="{{tabList}}" 
+          data-index="{{index}}" 
+          class="{{index === active ? 'on' : 'current'}}" 
+          wx:key="{{index}}" 
+          bindtap="toClick"
+          >{{item}}</text>
+        </view>
+      </view>
+      <view>
+					<navigator url='/pages/search/search' class="toSearch">
+							<van-icon name="search" size='20px'/>
+					</navigator>
+			</view>
+    </view>
+    <!-- 轮播 -->
+    <swiper class="banner" indicator-dots autoplay interval="2000" circular indicator-active-color="#fff" indicator-color="#b3b3b3">
+      <swiper-item wx:for="{{imglist}}" wx:key="{{index}}"><image src="{{item.pic_url}}"></image></swiper-item>
+    </swiper>
+    <!-- 列表 -->
+    <view class="prolist">
+        <view wx:for="{{filmList}}" data-index="{{index}}" wx:key="{{index}}" class="info">
+					<navigator url="{{'/pages/prodetails/prodetails?movieName='+item.url}}" class="infoTo">
+          <view class="image">
+                                                                        <!-- 组件 媒体组件 image  mode="scaleToFill"-->
+              <image src="{{item.pic_url}}" mode="scaleToFill"></image>  
+          </view>
+          <view class="text">
+              <view class="title">{{item.movieName}}</view>
+              <view>类型:{{item.movieType}}</view>
+              <view>国家:{{item.movieCountry}}</view>
+              <view>时长:{{item.movieDuration}}</view>
+              <view>作者:{{item.leadingPlayers}}</view>
+              <view>评分:<view class="score">{{item.movieScore}}</view></view>
+          </view>
+          <navigator class="details" url="{{'/pages/prodetails/prodetails?movieName='+item.url}}" hover-class="hoverClass">
+            详情>>
+          </navigator>
+					</navigator>
+    <!-- 加载更多-->
+        </view>
+    </view>
+    <view class="loading" wx:if="{{bool}}">
+        <text>{{loadingText}}</text>
+    </view>
+      
+  </view>
+  

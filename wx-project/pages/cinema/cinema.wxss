@@ -1,0 +1,16 @@
+.info{border-bottom: 2rpx solid #C9C9C9;padding:20rpx 10rpx;}
+.movieTitle{font-size:32rpx;width:100%;color:#e54847;}
+.movieTel{font-size:26rpx;}
+.movieCategory{font-size:26rpx;}
+.movieAddress{display: flex;justify-content: space-between;font-size:26rpx;color: #999999;}
+
+.picker{
+	font-size:26rpx;
+	line-height:80rpx;
+}
+.icon-xuanze{
+	float: right;
+	margin-right:30rpx;
+	color: #1989FA;
+	font-size: 34rpx;
+}

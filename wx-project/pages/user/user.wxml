@@ -1,0 +1,68 @@
+<view class="container">
+	<!-- 获取用户头像和昵称        注：需要更换背景图可以内联式写法-->
+		<view class='header' style="background-image:url({{BackgroundImg}})">
+			<open-data type="userAvatarUrl" class='avatar'></open-data>
+			<open-data type="userNickName" class='name'></open-data>
+		</view>
+		<view class="changeBg" bindtap="changeImg"><text class="iconfont icon-pifugexinghua"></text></view>
+		<navigator 
+			url="/pages/date/date" 
+			class="date"
+			style="z-index:{{zIndex}}"
+			> {{year}}-{{month}}-{{day}} 
+			<text class="iconfont icon-xuanze"></text>
+		</navigator>		
+
+
+    <view class='order'>
+			<view class='title-box'>
+				<view class='title'>我的服务</view>
+				<view class='title-line'></view>
+			</view>
+			<view class='order-list'>
+				<navigator class='order-item' url='/pages/collect/collect' hover-class='none'>
+					<i-icon type="like_fill" size="30" color="#fff" class="collectBg"/>
+					<text>电影收藏</text>
+				</navigator>
+				<button open-type='contact' class='order-item btn' hover-class='none'>
+					<i-icon type="customerservice" size="30" color="#fff"/>
+					<text>在线客服</text>
+				</button>
+			</view>
+		</view>
+	<view>
+    <official-account></official-account>
+	</view>
+		<view class='other'>
+			<view class='share other-item'>
+				<button open-type='share' class='btn' hover-class='none'>
+					<i-icon type="share" size="22" color="#f35d17"/> 分享给朋友
+				</button>
+			</view>
+			<view class='about other-item'>
+				<navigator url='/pages/publicAccount/publicAccount' hover-class='none' class="btn">
+					<i-icon type="add" size="22" color="#ffae00" /> 添加公众号
+				</navigator>
+			</view>
+			<view class='about other-item'>
+				<navigator url='/pages/album/album' hover-class='none' class="btn">
+					<i-icon type="picture" size="22" color="#79f513"/> 相册
+				</navigator>
+			</view>
+			<view class='customer other-item'>
+				<navigator class='' url='/pages/about/about' hover-class='none' class="btn">
+					<i-icon type="prompt" size="22" color="#27f584"/>  关于
+				</navigator>
+			</view>
+			<view class='about other-item'>
+				<navigator url='/pages/camera/camera' hover-class='none' class="btn">
+					<i-icon type="camera" size="22" color="#f51ea3"/> 相机
+				</navigator>
+			</view>
+			<view class='about other-item'>
+				<navigator url='/pages/setting/setting' hover-class='none' class="btn">
+					<i-icon type="setup" size="22" color="#3843dd"/> 设置
+				</navigator>
+			</view>
+		</view>
+</view>

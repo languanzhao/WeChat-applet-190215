@@ -1,0 +1,303 @@
+{
+    "info": [{
+            "movieId": "261009",
+            "movieName": "阴阳眼之瞳灵公馆",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/24/172218.31516441_182X243X4.jpg",
+            "movieDuration": "85分钟",
+            "movieCountry": "中国大陆",
+            "movieType": "惊悚 恐怖",
+            "leadingPlayers": " 苑琼丹 景岗山 文熙",
+            "movieScore":"7.5"
+        },
+        {
+            "movieId": "260276",
+            "movieName": "恐龙王",
+            "pic_url": "http://img5.mtime.cn/mt/2018/11/06/114714.43360169_182X243X4.jpg",
+            "movieDuration": "95分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "喜剧 动画 冒险",
+            "leadingPlayers": "吕佩玉 王衡 孙晔",
+            "movieScore":"8.6"
+        },
+        {
+            "movieId": "258524",
+            "movieName": "阿拉姜色",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/28/165519.90243063_182X243X4.jpg",
+            "movieDuration": "109分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情 家庭",
+            "leadingPlayers": "容中尔甲 尼玛颂宋 赛却加",
+            "movieScore":"7.5"
+        },
+        {
+            "movieId": "257982",
+            "movieName": "嗝嗝老师",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/26/101001.52026100_182X243X4.jpg",
+            "movieDuration": "120分钟", 
+            "movieCountry": "印度",
+            "movieType": "剧情 喜剧",
+            "leadingPlayers": "拉妮·玛克赫吉 内拉吉·卡比",
+            "movieScore":"7.9"
+        },
+        {
+            "movieId": "254854",
+            "movieName": "宝贝儿",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/13/183225.18667083_182X243X4.jpg",
+            "movieDuration": "96分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情",
+            "leadingPlayers": "杨幂 郭京飞 李鸿其",
+            "movieScore":"9.2"
+        },
+        {
+            "movieId": "253857",
+            "movieName": "你好，之华",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/29/091910.64953146_182X243X4.jpg",
+            "movieDuration": "114分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情 爱情",
+            "leadingPlayers": "周迅 秦昊 杜江",
+            "movieScore":"6.8"
+        },
+        {
+            "movieId": "253841",
+            "movieName": "为你写诗",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/22/103110.71321890_182X243X4.jpg",
+            "movieDuration": "105分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "喜剧 爱情 奇幻",
+            "leadingPlayers": "吴克群 周依然 周键铭",
+            "movieScore":"8.8"
+        },
+        {
+            "movieId": "253027",
+            "movieName": "名侦探柯南：零的执行人",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/17/093851.96263453_182X243X4.jpg",
+            "movieDuration": "110分钟", 
+            "movieCountry": "日本",
+            "movieType": "动画 悬疑",
+            "leadingPlayers": "高山南 山口胜平 山崎和佳奈",
+            "movieScore":"6.8"
+        },
+        {
+            "movieId": "251866",
+            "movieName": "雪怪大冒险",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/30/153647.85396352_182X243X4.jpg",
+            "movieDuration": "96分钟", 
+            "movieCountry": "美国",
+            "movieType": "喜剧 动画 歌舞 奇幻",
+            "leadingPlayers": "查宁·塔图姆 詹姆斯·柯登",
+            "movieScore":"8.8"
+        },
+        {
+            "movieId": "251180",
+            "movieName": "滴答屋",
+            "pic_url": "http://img5.mtime.cn/mt/2018/11/05/113535.37561841_182X243X4.jpg",
+            "movieDuration": "104分钟", 
+            "movieCountry": "美国 / 印度 / 加拿大",
+            "movieType": "喜剧 奇幻 冒险",
+            "leadingPlayers": "杰克·布莱克 凯特·布兰切特",
+            "movieScore":"9.3"
+        },
+        {
+            "movieId": "250829",
+            "movieName": "找到你",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/18/171005.34108810_182X243X4.jpg",
+            "movieDuration": "102分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情",
+            "leadingPlayers": "姚晨 马伊琍 袁文康",
+            "movieScore":"9.3"
+        },
+        {
+            "movieId": "250539",
+            "movieName": "悲伤逆流成河",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/19/101447.29061935_182X243X4.jpg",
+            "movieDuration": "104分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情 爱情",
+            "leadingPlayers": "赵英博 任敏 辛云来",
+            "movieScore":"8.3"
+        },
+        {
+            "movieId": "250339",
+            "movieName": "江湖儿女",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/05/100442.95551597_182X243X4.jpg",
+            "movieDuration": "137分钟", 
+            "movieCountry": "中国大陆 / 法国 / 日本",
+            "movieType": "爱情 犯罪",
+            "leadingPlayers": "赵涛 廖凡 徐峥",
+            "movieScore":"9.5"
+        },
+        {
+            "movieId": "250056",
+            "movieName": "无名之辈",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/13/113722.40019611_182X243X4.jpg",
+            "movieDuration": "120分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情 喜剧",
+            "leadingPlayers": "陈建斌 任素汐 潘斌龙",
+            "movieScore":"7.3"
+        },
+        {
+            "movieId": "247685",
+            "movieName": "黑暗迷宫",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/29/103941.24479370_182X243X4.jpg",
+            "movieDuration": "97分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "悬疑 犯罪",
+            "leadingPlayers": "聂远 葛天 杜奕衡",
+            "movieScore":"9.3"
+        },
+        {
+            "movieId": "247505",
+            "movieName": "功夫联盟",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/15/100101.58856075_182X243X4.jpg",
+            "movieDuration": "102分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情 动作",
+            "leadingPlayers": "赵文卓 安志杰 陈国坤",
+            "movieScore":"8.3"
+        },
+        {
+            "movieId": "246812",
+            "movieName": "开学悸",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/31/163025.45047244_182X243X4.jpg",
+            "movieDuration": "86分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "惊悚 恐怖",
+            "leadingPlayers": "秦语 曾淇 赵艺",
+            "movieScore":"5.3"
+        },
+        {
+            "movieId": "246624",
+            "movieName": "飓风奇劫",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/22/103930.64843604_182X243X4.jpg",
+            "movieDuration": "103分钟", 
+            "movieCountry": "美国",
+            "movieType": "动作 惊悚 犯罪",
+            "leadingPlayers": "托比·凯贝尔 玛姬·格蕾斯",
+            "movieScore":"8.1"
+        },
+        {
+            "movieId": "242119",
+            "movieName": "影",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/12/151650.31852299_182X243X4.jpg",
+            "movieDuration": "116分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "剧情 动作 武侠 古装",
+            "leadingPlayers": "邓超 孙俪 郑恺",
+            "movieScore":"9.6"
+        },
+        {
+            "movieId": "237072",
+            "movieName": "三国杀·幻",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/22/162338.64619359_182X243X4.jpg",
+            "movieDuration": "94分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "动作 爱情 悬疑 奇幻",
+            "leadingPlayers": "郑伊健 于荣光 谢天华",
+            "movieScore":"9.7"
+        },
+        {
+            "movieId": "235971",
+            "movieName": "破梦游戏",
+            "pic_url": "http://img5.mtime.cn/mt/2018/11/01/095300.67374554_182X243X4.jpg",
+            "movieDuration": "104分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "动作 冒险",
+            "leadingPlayers": "陈都灵 宋威龙 张宥浩",
+            "movieScore":"6.3"
+        },
+        {
+            "movieId": "235113",
+            "movieName": "追鹰日记",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/22/154652.68494916_182X243X4.jpg",
+            "movieDuration": "97分钟", 
+            "movieCountry": "奥地利",
+            "movieType": "剧情 冒险",
+            "leadingPlayers": "让·雷诺 曼纽尔·卡马科",
+            "movieScore":"9.1"
+        },
+        {
+            "movieId": "235060",
+            "movieName": "流浪猫鲍勃",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/30/155834.61207869_182X243X4.jpg",
+            "movieDuration": "103分钟", 
+            "movieCountry": "英国",
+            "movieType": "剧情 喜剧 传记",
+            "leadingPlayers": "卢克·崔德威 猫鲍勃",
+            "movieScore":"5.3"
+        },
+        {
+            "movieId": "233486",
+            "movieName": "校园恐怖故事",
+            "pic_url": "http://img5.mtime.cn/mt/2018/11/08/185143.65649194_182X243X4.jpg",
+            "movieDuration": "63分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "恐怖",
+            "leadingPlayers": "夏凯",
+            "movieScore":"4.3"
+        },
+        {
+            "movieId": "232384",
+            "movieName": "胡桃夹子和四个王国",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/17/110808.38008587_182X243X4.jpg",
+            "movieDuration": "99分钟", 
+            "movieCountry": "美国",
+            "movieType": "奇幻 冒险",
+            "leadingPlayers": "麦肯吉·弗依 摩根·弗里曼",
+            "movieScore":"7.6"
+        },
+        {
+            "movieId": "227422",
+            "movieName": "铁血战士",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/19/141458.50154485_182X243X4.jpg",
+            "movieDuration": "106分钟", 
+            "movieCountry": "美国 / 加拿大",
+            "movieType": "动作 科幻 惊悚 冒险",
+            "leadingPlayers": "波伊德·霍布鲁克 崔凡特·罗兹",
+            "movieScore":"6.8"
+        },
+        {
+            "movieId": "225752",
+            "movieName": "无双",
+            "pic_url": "http://img5.mtime.cn/mt/2018/09/25/113254.40208555_182X243X4.jpg",
+            "movieDuration": "130分钟", 
+            "movieCountry": "中国大陆 / 香港",
+            "movieType": "剧情 动作 犯罪",
+            "leadingPlayers": "周润发 郭富城 张静初",
+            "movieScore":"9.0"
+        },
+        {
+            "movieId": "219640",
+            "movieName": "昨日青空",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/25/170940.95506397_182X243X4.jpg",
+            "movieDuration": "82分钟", 
+            "movieCountry": "中国大陆",
+            "movieType": "爱情 动画",
+            "leadingPlayers": "苏尚卿 王一博 段艺璇",
+            "movieScore":"9.1"
+        },
+        {
+            "movieId": "209599",
+            "movieName": "冰封侠：时空行者",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/22/102351.66829595_182X243X4.jpg",
+            "movieDuration": "87分钟", 
+            "movieCountry": "中国大陆 / 香港",
+            "movieType": "动作 奇幻",
+            "leadingPlayers": "甄子丹 黄圣依 王宝强",
+            "movieScore":"9.2"
+        },
+        {
+            "movieId": "103937",
+            "movieName": "毒液：致命守护者",
+            "pic_url": "http://img5.mtime.cn/mt/2018/10/17/085012.20600355_182X243X4.jpg",
+            "movieDuration": "107分钟", 
+            "movieCountry": "美国 / 中国大陆",
+            "movieType": "动作 科幻 惊悚",
+            "leadingPlayers": "汤姆·哈迪 米歇尔·威廉姆斯",
+            "movieScore":"9.6"
+        }
+    ]
+}

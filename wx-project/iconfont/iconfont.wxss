@@ -1,0 +1,16 @@
+/* 在app.wxss中全局引入,就不需要在使用页面都引入 */
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pifugexinghua:before {
+  content: "\e7e8";
+}
+
+.icon-xuanze:before {
+  content: "\e626";
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    background:#1296db;
+    color: #000;
+}

@@ -1,0 +1,19 @@
+.header{width:100%;height:350rpx;position:relative;display: flex;justify-content: center;}
+.header .bg{position: absolute;width:100%;height:350rpx;filter: blur(30rpx);}
+.header .info{position: absolute;top:60rpx;}
+.header .info .image{display:block;width:180rpx;height:180rpx;border-radius:50%;border:2rpx solid;overflow: hidden;}
+.header .info .name{text-align: center;background: #fff;padding:0rpx;display: block;}
+
+
+.checked view{width:100%;height:120rpx;line-height:120rpx;border-top:2rpx solid #C9C9C9;
+			  display: flex;justify-content: space-between;padding: 0 20rpx;box-sizing: border-box;}
+.checked view view{display: flex;align-items:center;}
+.checked view view view{margin-left:15rpx;}
+.checked view view van-icon{line-height:120rpx;display:block;}
+.checked .arrow{line-height:125rpx;}
+
+.checked navigator{width:100%;height:120rpx;line-height:120rpx;border-top:2rpx solid #C9C9C9;
+	display: flex;justify-content: space-between;padding: 0 20rpx;box-sizing: border-box;}
+
+
+

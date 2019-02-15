@@ -1,0 +1,21 @@
+{
+	"movieName": "哥斯拉",
+	"movieType": "喜剧",
+	"movieLocal": "113分钟 中国大陆",
+	"movieTime": "上映时间：2018-09-30",
+	"movieHeadImage": "http://v.juhe.cn/movie/img?5146",
+	"movieGut": "一道亮光划过天际，太平洋上波涛汹涌，海浪以不可思议的速度将一架货机卷入海里；巴哈马丛林中，出现了巨大的脚印；一股神秘的力量一直朝纽约而来，这座人口稠密的都市即将受到这个怪兽“哥斯拉”的袭击。“哥斯拉”是因为核试验造成气..",
+	"movieActors": [{
+		"actorsName": "吴昱翰",
+		"actorsObj": "导演",
+		"actorsPhoto": "http://img5.mtime.cn/mt/2018/10/19/104010.44846372_182X243X4.jpg"
+	}, {
+		"actorsName": "吴昱翰",
+		"actorsObj": "导演",
+		"actorsPhoto": "http://img5.mtime.cn/mt/2018/10/19/104010.44846372_182X243X4.jpg"
+	}, {
+		"actorsName": "吴昱翰",
+		"actorsObj": "导演",
+		"actorsPhoto": "http://img5.mtime.cn/mt/2018/10/19/104010.44846372_182X243X4.jpg"
+	}]
+}

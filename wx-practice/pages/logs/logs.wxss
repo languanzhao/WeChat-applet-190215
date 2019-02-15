@@ -1,0 +1,9 @@
+@import '.././template/template.wxss'
+
+.css{color: #d41010;}
+.container1{width: 500rpx;height: 300rpx;border: 2px solid;}
+.container1 view{width: inherit;height: 100rpx;}
+
+.container2{width: 500rpx;height: 300rpx;border: 2px solid;   white-space: nowrap;} 
+.container2 view{width: 100rpx;height: 100rpx;                display:inline-block;}
+

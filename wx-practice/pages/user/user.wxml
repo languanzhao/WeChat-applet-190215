@@ -1,0 +1,11 @@
+<view> 
+                                        <!-- 显示当前位置坐标 -->
+    <map 
+    show-location
+    style="width:100%;height:300px;"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    markers="{{markers}}"
+    ></map>
+</view>
+<view bindlongpress="copyGithubUrl">{{githubUrl}}</view>

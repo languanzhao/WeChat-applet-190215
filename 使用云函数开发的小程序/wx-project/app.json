@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/prodetails/prodetails",
+    "pages/collect/collect"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "影片之家"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home_hover.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "附近影院",
+        "iconPath": "img/note.png",
+        "selectedIconPath": "img/note_hover.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "img/user.png",
+        "selectedIconPath": "img/user_hover.png"
+      }
+    ],
+    "color": "#666666",
+    "selectedColor": "#1235d1",
+    "backgroundColor": "#f3f2f2"
+  }
+}

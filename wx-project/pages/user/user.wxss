@@ -1,0 +1,181 @@
+.container{
+	width:100vw;
+	height:100vh;
+	background:#f3f3f3;
+}
+.header {
+	position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 420rpx;
+  height:420rpx;
+  overflow: hidden;
+  text-align: center;
+}
+.header .avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius:50%;
+  overflow: hidden;
+}
+
+.header .name {
+  height: 45rpx;
+  margin-top: 14rpx;
+  font-size: 36rpx;
+  line-height: 45rpx;
+  color: #fff;
+}
+.changeBg{
+	width:60rpx;
+	height:60rpx;
+	line-height:60rpx;
+	border:3rpx solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 30rpx;
+	top: 30rpx;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+}
+.changeBg .icon-pifugexinghua{
+	display:inline;
+	color: #fff;
+	font-size:40rpx;
+	
+}
+.date{
+	position: fixed;
+	top:10rpx;
+	left:20rpx;
+	font-size:32rpx;
+	color: #fff;
+}
+.icon-xuanze{
+	color:#00FF00;
+	font-size:32rpx;
+}
+.order{
+	margin-top:20rpx;
+	background: #fff;
+	padding-top:10rpx;
+}
+.order .title-box {
+  position: relative;
+  width:520rpx;
+  height: 42rpx;
+  margin: 0 auto;
+}
+.order .title {
+  position: relative;
+  height: 42rpx;
+  width: 160rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  line-height: 42rpx;
+  color: #333;
+  text-align: center;
+  background: #fff;
+  z-index: 9;
+}
+.order .title-line {
+  position:absolute;
+  width:520rpx;
+  height:2px;
+  top: 20rpx;
+  background: #f0f0f0;
+}
+.order-list {
+  display: flex;
+  height:180rpx;
+  align-items: center;
+  background: #fff;
+}
+.order-item {
+  width: 50%;
+	line-height:50rpx;
+  text-align: center;
+}
+.order-item i-icon {
+	display:inline-block;
+  width:100rpx;
+  height:100rpx;
+	line-height:100rpx;
+	text-align: center;
+	background:#89eeb5;
+	border-radius:50%;
+  margin-bottom: 6rpx;
+}
+.order-item text{
+	display: block;
+  color: #333;
+  font-size: 28rpx;
+}
+/* 覆盖按钮的默认样式 */
+.order-list .btn{
+	 border-radius: 0;
+	 padding:0;
+	 margin:0;
+	 font-size: 1em; 
+	 background: #fff;
+	
+}
+/* 覆盖按钮的默认样式 */
+.order-list .btn:after{
+ border: none;
+}
+.order-item .collectBg{
+	background:#99CCFF;
+}
+.other {
+  margin-top:20rpx;
+  background:#fff;
+	border-bottom:20rpx solid #f3f3f3;
+}
+.other-item {
+  position: relative;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  padding-right: 30rpx;
+  color: #333;
+  border-bottom: 1px solid #e0dddd;
+}
+/* 箭头 > */
+.other-item::after {
+  position: absolute;
+  right:40rpx;
+  top:52rpx;
+  content: "";
+  width: 22rpx;
+  height: 22rpx;
+  border-right: 1px solid #b4afaf;
+  border-top: 1px solid #b4afaf;
+	transform:rotate(45deg);
+ /* transform: translateY(-50%) rotate(135deg); */
+}
+/* 覆盖按钮的默认样式 */
+.other .btn{
+   width:100%;
+   border:none;
+   border-radius: 0;
+   padding:0;
+   margin:0;
+   font-size: 30rpx;
+   height:120rpx;
+	 line-height: 120rpx;
+   text-align: left;
+   background: #fff;
+}
+/* 覆盖按钮的默认样式 */
+.other .btn::after{
+  content: none;
+}
+.other-item .btn i-icon{
+  padding-right: 20rpx;
+}

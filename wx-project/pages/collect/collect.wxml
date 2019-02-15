@@ -1,0 +1,14 @@
+<!--pages/collect/collect.wxml-->
+
+<view wx:if="{{bool}}" class="collectItems">
+	<view wx:for="{{list}}" wx:key="{{index}}" class="collectItem">
+			<navigator url="{{'/pages/prodetails/prodetails?id='+item.movieId}}" class="searchInfo">
+					<image src="{{item.img}}" binderror="errorImg" data-index="{{index}}"></image>
+					<view>{{item.name}}</view>
+			</navigator>
+	</view>
+</view>
+<view wx:else class="none">
+	<image src="https://languanzhao.github.io/img-for-wxproject/collect_none.png"></image>
+	<view class="text">暂无收藏哦</view>
+</view>

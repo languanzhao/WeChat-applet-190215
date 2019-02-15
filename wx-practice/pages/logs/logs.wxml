@@ -1,0 +1,50 @@
+<import src=".././template/template.wxml"/>
+<view>
+    <template is="mytemplate" data="{{back,text,icon}}">
+        <view class="wrapper">
+            <view class="left">
+                {{back}}
+            </view>
+            <view class="center">
+                {{text}}
+            </view>
+            <view class="right">
+                {{icon}}
+            </view>
+        </view> 
+    </template>
+    <!-- 改变按下去的样式 -->
+    <view hover-class="css">
+            按下去的样式为红色
+    </view>
+
+    <scroll-view class="container1" scroll-x scroll-y>
+        <view class="" style="background:#3009df"></view> 
+        <view class="" style="background:#a4d126"></view>
+        <view class="" style="background:#9e2424"></view>
+        <view class="" style="background:#58b43c"></view>
+        <view class="" style="background:#0f0e0e"></view>
+        <view class="" style="background:#c52086"></view>
+    </scroll-view>
+    <scroll-view class="container2" scroll-x scroll-y>
+            <view class="" style="background:#3009df"></view> 
+            <view class="" style="background:#a4d126"></view>
+            <view class="" style="background:#9e2424"></view>
+            <view class="" style="background:#58b43c"></view>
+            <view class="" style="background:#0f0e0e"></view>
+            <view class="" style="background:#c52086"></view>
+            <view class="" style="background:#3009df"></view> 
+            <view class="" style="background:#a4d126"></view>
+            <view class="" style="background:#9e2424"></view>
+            <view class="" style="background:#58b43c"></view>
+            <view class="" style="background:#0f0e0e"></view>
+            <view class="" style="background:#c52086"></view>
+    </scroll-view>
+      
+ 
+<view bindtap="showActionSheet">点击 显示操作菜单</view>
+<navigator url="/pages/other/other">跳到other（获取微信上的地址）页面</navigator>
+</view>
+<view bindtap="phoneNumTap">添加联系人{{phoneNum}}</view>
+<navigator url="/pages/blueTooth/blueTooth">跳到blueTooth页面</navigator>
+<navigator url="/pages/audio/audio">跳到audio页面</navigator>

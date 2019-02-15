@@ -1,0 +1,21 @@
+.title {
+	text-align: center;
+	background: #C9C9C9;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.none {
+	width: 320rpx;
+	height: 100rpx;
+	font-size: 50rpx;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: inline-block;
+}
+.collectItems{display:flex;justify-content: flex-start;flex-wrap: wrap;}
+.collectItem{background:#1989FA;padding:6rpx;margin:10rpx 10rpx;}

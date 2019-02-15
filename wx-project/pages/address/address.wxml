@@ -1,0 +1,19 @@
+<view class="container">
+	
+	<view class="wrapper" wx:if="{{bool}}">
+			<view class="name">
+						<text>{{ addressInfo.userName }} {{ addressInfo.telNumber }}</text>
+						<text class="">{{ addressInfo.postalCode }}</text>
+			</view>
+
+			<view class="address">
+						{{ addressInfo.provinceName }}
+						{{ addressInfo.cityName }}
+						{{ addressInfo.countyName }}
+						{{ addressInfo.detailInfo }}
+			</view>
+</view>
+
+<button type="primary" bindtap="chooseAddress" style="margin-top: 60rpx;">获取收货地址</button>
+
+</view>

@@ -1,0 +1,21 @@
+<view wx:if="{{bool}}" class="container">
+<view class="tip">ps：长按可以删除哦！</view>
+<view 
+				wx:for="{{list}}" 
+				class="img" 
+				wx:key="{{index}}" 
+				bindtap="previewImage" 
+				bindlongpress="deleteImage"
+				data-index="{{index}}"
+				>
+	<image src="{{item}}" data-src="{{item}}"></image>
+</view>
+</view>
+
+
+<view wx:else class="none">
+	亲，没有上传照片哦
+</view>
+<view class="upload" bindtap="upload">
+	<view>上传</view>
+</view>

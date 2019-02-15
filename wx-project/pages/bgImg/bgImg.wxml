@@ -1,0 +1,4 @@
+<view class="bgImg" wx:for="{{list}}" wx:key="{{index}}" bindtap="chooseImg" data-index="{{index}}">
+	<image src="{{item.src}}"></image>
+	<view>{{item.theme}}</view>
+</view>

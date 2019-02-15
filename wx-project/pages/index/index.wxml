@@ -1,0 +1,97 @@
+
+<view class="container">
+    <view class="header">
+      <view class="city"><text>当前城市:</text>{{city}}</view>
+      <view>
+        <view class="tab">
+          <text 
+          wx:for="{{tabList}}" 
+          data-index="{{index}}" 
+          class="{{index === active ? 'on' : 'current'}}" 
+          wx:key="{{index}}" 
+          bindtap="toClick"
+          >{{item}}</text>
+        </view>
+      </view>
+      <view>
+					<navigator url='/pages/search/search' class="toSearch">
+							<van-icon name="search" size='20px' color="#ef4238"/>
+					</navigator>
+			</view>
+    </view>
+		
+<!-- 选项一 -->
+		<view hidden="{{active !== 1}}">
+    <!-- 轮播 -->
+    <swiper class="banner" indicator-dots autoplay interval="2000" circular indicator-active-color="#fff" indicator-color="#b3b3b3">
+      <swiper-item wx:for="{{imglist}}" wx:key="{{index}}"><navigator url="{{'/pages/prodetails/prodetails?id='+item.id}}"><image src="{{item.img}}" mode="aspectFill"></image></navigator></swiper-item>
+    </swiper>
+    <!-- 列表 -->
+    <view class="prolist">
+        <view wx:for="{{filmList}}" data-index="{{index}}" wx:key="{{index}}" class="info">
+					<navigator url="{{'/pages/prodetails/prodetails?id='+item.id}}" class="infoTo">
+          <view class="image">
+                                                                        <!-- 组件 媒体组件 image  mode="scaleToFill"-->
+              <image src="{{item.img}}" mode="scaleToFill"></image>  
+          </view>
+          <view class="text">
+              <view class="title">{{item.t}}</view>
+              <view>类型:{{item.movieType}}</view>
+              <view>年份:{{item.year}}</view>
+              <view>时长:{{item.d}}分钟</view>
+              <view>导演:{{item.dN}}</view>
+              <view>评分:<view class="score">{{item.r}}</view></view>
+          </view>
+          <navigator class="details" url="{{'/pages/prodetails/prodetails?id='+item.id}}" hover-class="hoverClass">
+            详情>>
+          </navigator>
+					</navigator>
+    <!-- 加载更多-->
+        </view>
+    </view>
+    <view class="loading" wx:if="{{bool}}">
+			<image src="https://languanzhao.github.io/img-for-wxproject/loading.gif" class="loadingImg"></image>
+        <text>{{loadingText}}</text>
+    </view>
+		<view wx:else class="bottom_none">已经到底了哦！</view>
+  </view>    
+  </view>
+	
+	<!-- 选项二 -->
+	<view hidden="{{active !== 0}}" >
+	<view class="hot">
+		
+		<view class='attention'>近期最受关注（<text>{{AttentionMoviesLength}}</text>）</view>
+		<scroll-view class="scrollView" scroll-x>
+			<view wx:for="{{AttentionMovies}}" wx:key="{{index}}" class="wrapper">
+			  <navigator url="{{'/pages/prodetails/prodetails?id='+item.id}}">
+				  <image src="{{item.image}}"></image>
+					<view class="title">{{item.title}}</view>
+					<view><text class="lookup">{{item.wantedCount}}</text>人想看</view>
+					<view>{{item.releaseDate}}</view>
+			  </navigator>
+			</view>
+		</scroll-view>
+		</view>
+	<view class='will'>近期即将上映（<text>{{moviecomingsLength}}</text>）</view>
+			<view class="content">
+				<view class="moviecomings" wx:for="{{moviecomings}}" wx:key="{{index}}">
+					<navigator url="{{'/pages/prodetails/prodetails?id='+item.id}}">
+						<image src="{{item.image}}"></image>
+						<view class="info">
+							<view class="title">{{item.title}}</view>
+							<view><view class="grade">{{item.wantedCount}}</view>人想看</view>
+							<view class='actors'>主演：{{item.actor1}},{{item.actor2}}</view>
+							<view>{{item.releaseDate}}</view>
+						</view>
+					</navigator>
+				</view>
+				<view class="loading" wx:if="{{bool2}}">
+					<image src="https://languanzhao.github.io/img-for-wxproject/loading.gif" class="loadingImg"></image>
+						<text>{{loadingText}}</text>
+				</view>
+				<view wx:else class="bottom_none">已经到底了哦！</view>
+	    </view>
+	</view>
+  
+<view class="scrollTop" bindtap="scrollTop">顶部</view>

@@ -1,0 +1,12 @@
+/* 引入模板样式 */
+@import '.././template/template.wxss'
+
+
+form input{width:300rpx;height:90rpx;border:2rpx solid #000000;padding-left:5rpx;}
+form button{width:200rpx;height:90rpx;border:2rpx solid #000000;}
+form{display: flex;justify-content: space-around;}
+.tagClick{background: pink;color: rgb(43, 54, 54);margin: 20rpx 0rpx 20rpx 0rpx;}
+.fnClick{background:rgb(133, 132, 201);color: rgb(204, 149, 206);margin: 20rpx 0rpx 20rpx 0rpx;}
+/* 注：rpx 单位 */
+
+

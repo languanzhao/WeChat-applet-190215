@@ -1,0 +1,14 @@
+
+<template name="mytemplate">
+    <view class="wrapper">
+        <view class="left">
+            {{back}}
+        </view>
+        <view class="center">
+            {{text}}
+        </view>
+        <view class="right">
+            {{icon}}
+        </view>
+    </view> 
+</template>

@@ -1,0 +1,35 @@
+<view class='container'>
+	<view class='banner'>
+		<image src='https://languanzhao.github.io/img-for-wxproject/youcan.jpg' mode='aspectFill'></image>
+	</view>
+	<view class='section'>
+		<view class="title">个人简介</view>
+		<view wx:for='{{info}}' wx:key='{{index}}'>
+			<text>{{item.label}}：</text>
+			<text>{{item.value}}</text>
+		</view>
+		<view>
+		</view>
+	</view>
+	<view class='section'>
+		<view class="title">后端支持 </view>
+		<view>
+			<text>easy-mock后台: </text>
+			<text class="support">https://easy-mock.com/</text>
+		</view>
+		<view>
+			<text>腾讯位置服务: </text>
+			<text class="support">https://lbs.qq.com/qqmap_wx_jssdk/index.html</text>
+		</view>
+		<view>
+			<text>Time 时光 API:</text>
+			<text class="support">https://api-m.mtime.cn/Showtime/HotCitiesByCinema.api</text>
+		</view>
+	</view>
+	<view class='section'>
+		<view class="title">此项目所用到的API </view>
+		<view class="wx">
+			<view wx:for="{{wxList}}" wx:key="{{index}}"><text>{{index + 1}}.{{item.wx}}</text><text>{{item.cn}}</text></view>
+		</view>
+	</view>
+</view>

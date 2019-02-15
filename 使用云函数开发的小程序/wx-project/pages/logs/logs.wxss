@@ -1,0 +1,23 @@
+
+
+
+.header{height: 69rpx;display:flex;justify-content: space-between;align-items: center;padding: 0rpx 20rpx;}
+.tab{display: flex;text-align: center;line-height: 40rpx;height: 40rpx;align-items: center;}
+.tab .on{display:block;color:red;border-radius: 20rpx;width:160rpx;height: 40rpx;background: indianred;font-size: 24rpx;color: #fff;}
+.tab .current{display:block;color: #000;font-size: 24rpx;width:160rpx;height: 40rpx;}
+
+.banner{width: 100%;height: 272rpx;}
+.banner swiper-item{width: 100%;height: 272rpx;}
+.banner swiper-item image{width: 100%;height:272rpx;}
+
+.prolist{margin-top: 80rpx;}
+.prolist .info{width:710rpx;height:220rpx;display: flex;justify-content: space-around;background: #fff;
+                margin:0rpx auto 92rpx auto;border-radius:20rpx;box-shadow:0rpx 0rpx 40rpx 45rpx #ddd;}
+                
+.prolist .info .image{width: 200rpx;height: 250rpx;position: relative;margin-left:20rpx;}
+.prolist .info .image image{width: 200rpx;height: 250rpx;position: absolute;bottom:55rpx;border-radius:20rpx;}
+.prolist .info .text{width:364rpx;font-size: 24rpx;color: #666666;padding-top: 20rpx;}
+.prolist .info .text .title{font-size: 24rpx;color: #333333;font-weight:bold;}
+.prolist .info .text view{margin-bottom:4rpx;}
+.prolist .info .text .score{display: inline-block;color:#e3321b ;font-size:30rpx;}
+.prolist .info .details{width:100rpx;height:40rpx;font-size:22rpx;margin:auto 0;}

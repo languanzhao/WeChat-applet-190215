@@ -1,0 +1,6 @@
+@import '.././template/template.wxss'
+
+.navbar{width:100%;display: flex;justify-content:space-around;}
+
+.a{width:100%;height:400rpx;background:red;}
+.active{color:red;}
